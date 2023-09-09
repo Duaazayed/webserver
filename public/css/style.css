@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    color:#aa8c04;
+    text-align: center;
+}
+input[type=text], input[type=password], input[type=date], input[type=time] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #aa8c04;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+  }
+  .registerlink{
+    text-align: right;
+  }
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  img.avatar {
+    width: 20%;
+    border-radius: 50%;
+  }
+  header{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: right;
+    margin: 0 auto;
+  }
+  nav ul {
+    display: flex;
+    /*width: 2000px;*/
+    justify-content: right;
+    margin: 0 auto;
+}
+
+li{
+    padding: 0 10px;
+    width: 50%;
+}
+.liheader{
+  padding: 0 10px;
+    width: 100px;
+}
+ul, li{
+    list-style: none;
+}
+.tabColor{
+  color: #aa8c04;
+  font-size: 20px; 
+}
+.registerlink{
+  color: #aa8c04;
+  font-size: 19px;
+}
+/*span{
+  font-size: 19px;
+  display:inline-table;
+  text-align: left;
+}*/

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewpart" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title> Reservation Page </title>
+    </head>
+    <body>
+        <div class="main">
+            <header>
+                <nav>
+            <ul>
+                <li> <a href="home.html" class="tabColor">Home</a></li>
+                <li> <a href="reserveBike.html" class="tabColor">Reserve Bike</a></li>
+                <li> <a href="myReservation.html" class="tabColor">My Reservation</a></li>
+                <li> <a href="settings/settings.html" class="tabColor">Settings</a></li>
+                <li> <a href="index.html" class="tabColor">Logout</a></li>
+            </ul>
+            </nav>
+            </header>
+            <br>
+            <h1> Reservation Form</h1>
+    
+            <div>
+            <div class="imgcontainer">
+              <img src="userbike.jpg" alt="Avatar" class="avatar">
+            </div>
+          
+        
+        <form class="reservation"  novalidate>
+            
+            <label for="reservation_date">
+                <input id="reservation_date" type="date" placeholder="Select Date" /> 
+            </label>
+            <br>
+            <label for="reservation_start_time">
+
+                <input id="reservation_start_time" type="time" placeholder="Select Start Time" /> 
+            </label>
+            <br>
+            <label for="reservation_end_time">
+
+                <input id="reservation_end_time" type="time" placeholder="Select End Time" /> 
+            </label>
+            <br>
+            <button onclick="doReservation(event)">Submit</button>
+            
+            
+        </form>
+    </div>
+        </div>
+    </body>
+    <script src="./src/api.config.js"></script>
+    <script src="./src/simple-storage.js"></script>
+    <script src="./src/service-helpers.js"></script>
+    <script src="./src/auth.service.js"></script>
+    <script src="./src/reservation.js"></script>
+    
+   
+    </html>

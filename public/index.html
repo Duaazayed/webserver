@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewpart" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title> Login Page </title>
+    </head>
+    <body>
+        <div class="main">
+            <header>
+                <nav>
+            <ul>
+                <li class="liheader"> <a href="register.html" class="tabColor">Sign Up</a></li>
+                
+            </ul>
+            </nav>
+            </header>
+            <br>
+            <h1> GOLDEN BIKE SHOP</h1>
+    
+    <div>
+        
+            <div class="imgcontainer">
+              <img src="userbike.jpg" alt="Avatar" class="avatar">
+            </div>
+          
+        
+        <form class="login" novalidate>
+            <label for="username"> 
+                
+                <input id="username" type="text"  placeholder="Enter Username"/>
+                </label>
+                <br>
+            <label for="password">
+
+                <input id="password" type="password" placeholder="Enter Password" /> 
+            </label>
+            <br>
+            <button onclick="doLogin(event)">Login</button>
+            <br>
+            <a class="registerlink" href="./register.html">need to register </a>
+        </form>
+    </div>
+        </div>
+    </body>
+    <script src="./src/api.config.js"></script>
+    <script src="./src/simple-storage.js"></script>
+    <script src="./src/service-helpers.js"></script>
+    <script src="./src/auth.service.js"></script>
+    <script src="./src/auth.js"></script>
+    </html>
