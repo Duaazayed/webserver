@@ -1,6 +1,9 @@
-const getAllBike= async()=>{
+import _get from `./service-helpers`;
+
+async function getAllBike() {
+
   const BIKE_API = `${BASE_API_URL}/bike`;
-      return  _get(BIKE_API);    
+  return _get(BIKE_API);
 }
 (async ()=>{
   const bike = await getAllBike();
