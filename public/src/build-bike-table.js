@@ -1,5 +1,4 @@
 import _get from `./service-helpers`;
-
 async function getAllBike() {
 
   const BIKE_API = `${BASE_API_URL}/bike`;

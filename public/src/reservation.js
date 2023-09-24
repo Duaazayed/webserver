@@ -15,3 +15,4 @@ const doReservation= async(e)=>{
      window.location.href = `./myReservation.html?reservationId=${res.reservation_id}`;
   
     };
+    

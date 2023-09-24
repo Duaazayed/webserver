@@ -64,14 +64,4 @@ const doLogin = async (e) => {
     window.location.href = 'index.html';
   };
   
-  /*(() => {
-    if (storageHasData()) {
-      const isAuth = getStorage('isAuth');
-      if (!isAuth) {
-        document.getElementById('logout').style.display = 'none';
-      } else {
-        document.getElementById('logout').style.display = 'block';
-      }
-    }
-  })();
-*/
+ 
