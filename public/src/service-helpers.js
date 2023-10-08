@@ -15,6 +15,7 @@ const DEFAULT_OPTIONS_WITH_AUTH = {
   },
 };
 
+
 const OPTIONS_WITH_AUTH = {
   headers: {
     Authorization: token,

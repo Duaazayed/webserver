@@ -11,7 +11,7 @@ const getStorage = (key) => {
     return null;
   }
   const decodedData = atob(encodedData);
-  //console.log(decodedData);
+  console.log(decodedData);
 
   return JSON.parse(decodedData);
 

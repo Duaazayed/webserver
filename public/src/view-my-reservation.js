@@ -39,7 +39,6 @@ const getReservation= async()=>{
       endTimeSpan.className = 'end-time';
       endTimeSpan.innerText = myReservation.reservation_end_time;
       
-      
      
         // add list item
       //block.appendChild(checkboxSpan);

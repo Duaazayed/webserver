@@ -1,4 +1,4 @@
-const AUTH_API = `${BASE_API_URL}/auth`; // http://localhost:5000/api/auth
+const AUTH_API = `${BASE_API_URL}/auth`; // http://localhost:3306/api/auth
 
 
 const DEFAULT_OPTIONS = {
@@ -6,7 +6,6 @@ const DEFAULT_OPTIONS = {
     'Content-Type': 'application/json',
   },
 };
-
 
 const login = (formData) => _post(`${BASE_API_URL}/auth/login`, formData);
 const _post = async (url, data, options = DEFAULT_OPTIONS) => {
